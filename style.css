@@ -52,7 +52,7 @@ span {
     align-items: center;
 }
 
-.nav-bar-container a {
+.nav-bar-container a{
     text-decoration: none;
     color: #3C354F;
     text-align: center;
@@ -66,6 +66,8 @@ span {
     padding: 20px 25px;
     text-align: center;
     border: none;
+    font-size: 18px;
+    color: #3C354F;
 }
 .youtube{
     width: 50px;
