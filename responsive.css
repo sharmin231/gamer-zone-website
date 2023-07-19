@@ -49,6 +49,35 @@
     .go-btn {
         padding: 12px 15px;
     }
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-image-container {
+        width: 100%;
+    }
+    .gamer-content-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .gamer-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .gamer-description{
+        font-size: 18px;
+        text-align: center;
+    }
+    .purpose{
+        text-align: center;
+    }
+    .bottom-p-2{
+        font-size: 25px;
+        text-align: center;
+    }
+
 
 
 
