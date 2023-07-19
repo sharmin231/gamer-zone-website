@@ -308,3 +308,51 @@ span {
     font-size: 16px;
     font-weight: 500;
 }
+/*download styles start here*/
+.download-container{
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    margin: 50px auto;
+}
+.download-content{
+    width: 50%;
+    padding: 50px;
+}
+
+.pic-1{
+    width: 100%;
+    height: 400px;
+}
+.pic-2{
+    height: 220px;
+    width: 200px;
+    position: absolute;
+    top: 210px;
+    left: 45%;
+}
+    
+
+.download-img{
+    width: 50%;
+    
+}
+.download-heading{
+    color: #FF42A5;
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.download-title
+{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.download-description{
+    font-size: 16px;
+    margin-top: 5px;
+    color: #5a5763;
+}
