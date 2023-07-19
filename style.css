@@ -314,7 +314,6 @@ span {
     display: flex;
     align-items: center;
     position: relative;
-    height: 400px;
     margin: 50px auto;
 }
 .download-content{
@@ -355,4 +354,9 @@ span {
     font-size: 16px;
     margin-top: 5px;
     color: #5a5763;
+}
+.download-content{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
 }

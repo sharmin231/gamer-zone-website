@@ -221,10 +221,30 @@
         font-size: 25px;
     }
     .cards-description{
-        font-size: 10px;
+        font-size: 18px;
     }
     .funny-cards{
         margin: 0 auto;
+    }
+    .download-container{
+        flex-direction: column-reverse;
+        
+    }
+    .download-img{
+        width: 100%;
+    }
+    .pic-1{
+        width: 100%;
+        padding-left: 40px; 
+
+    
+    }
+    .pic-2{
+        width: 180px;
+        height: 180px;
+        top: 260px;
+        left: 0%;
+
     }
 
 
