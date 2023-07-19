@@ -246,6 +246,7 @@ span {
     background-color: #FF42A5;
     color: white;
 }
+
 .bottom-p-2 {
     color: #534C64;
     text-align: right;
@@ -256,7 +257,8 @@ span {
     font-weight: 700;
     margin-top: 0px;
 }
-.purpose{
+
+.purpose {
     color: #534C64;
     text-align: right;
     font-size: 24px;
@@ -266,9 +268,43 @@ span {
     font-weight: 700;
     margin-bottom: 4px;
 }
+
 /*funny card start here*/
-.funny-card-container{
+.funny-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.funny-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.funny-card-container {
     max-width: 1140px;
-    border: 2px solid green;
     min-height: 200px;
+    display: flex;
+    gap: 20px;
+    margin: 0px auto;
+}
+
+.card-img {
+    width: 260px;
+}
+
+.cards-description {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
 }
