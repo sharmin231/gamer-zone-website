@@ -200,6 +200,9 @@ span {
     margin: 0 auto;
     display: flex;
     padding: 40px;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
 }
 .gamer-image-container{
     width: 50%;

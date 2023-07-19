@@ -83,4 +83,37 @@
     margin-top: 20px;
     justify-content: space-around;
 }
+.play-container{
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+.play-content{
+    width: 100%;
+    text-align: center;
+}
+.play-img{
+    width: 100%;
+}
+.click-icon{
+padding-left: 240px;}
+.download-icon{
+    padding-left: 240px;
+}
+.support-icon{
+    padding-left: 240px;
+}
+.signin-btn{
+    padding: 12px 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.go-btn{
+    padding: 12px 15px;
+}
+
+
+
+
+
+
 }
