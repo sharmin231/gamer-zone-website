@@ -392,3 +392,26 @@ span {
     font-size: 12px;
     font-weight: 400px;
 }
+/*section end here*/
+footer{
+    background-color: #0B0223;
+    margin-top: 50px;
+
+}
+.footer-logo-div,.blur{
+    color: white;
+}
+.ami{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-image{
+    width: 70px;
+    height: 35px;
+}
+.footer-title{
+    font-size: 45px;
+}
