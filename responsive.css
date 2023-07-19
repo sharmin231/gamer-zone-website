@@ -34,7 +34,9 @@
     .play-content{
         width: 100%;
         text-align: center;
-
+    }
+    .play-img{
+        width: 100%;
     }
     .play-title{
         font-size: 25px;
