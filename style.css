@@ -6,8 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&family=Work+Sans:wght@400;500;700;800&display=swap');
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -388,30 +386,86 @@ span {
     gap: 5px;
     width: 200px;
 }
-.title{
+
+.title {
     font-size: 12px;
     font-weight: 400px;
 }
+
 /*section end here*/
-footer{
+footer {
     background-color: #0B0223;
     margin-top: 50px;
+    height: 100vh;
 
 }
-.footer-logo-div,.blur{
+
+.footer-logo-div,
+.blur {
     color: white;
 }
-.ami{
+
+.ami {
     display: flex;
     gap: 30px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
-.footer-image{
+.footer-image {
     width: 70px;
     height: 35px;
 }
-.footer-title{
+
+.footer-title {
     font-size: 45px;
+}
+
+.story-box {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 20px;
+    justify-content: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-icon {
+    color: white;
+    text-align: center;
+}
+
+.policy-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.privacy {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bottom{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
