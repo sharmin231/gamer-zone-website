@@ -372,8 +372,8 @@ span {
 }
 
 /*grid section styles start*/
-.grid-container {
-    width: 1140px;
+.wrap-container {
+    max-width: 1140px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -387,4 +387,8 @@ span {
     align-items: center;
     gap: 5px;
     width: 200px;
+}
+.title{
+    font-size: 12px;
+    font-weight: 400px;
 }

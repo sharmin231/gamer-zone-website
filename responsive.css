@@ -273,6 +273,19 @@
         left: 0%;
 
     }
+    .wrap-container{
+        flex-wrap: wrap;
+    }
+    .column{
+        width: 130px;
+    }
+    .title{
+        font-size: 10px;
+    }
+    .new{
+        width: 40px;
+        height: 40px;
+    }
 
 
 }
