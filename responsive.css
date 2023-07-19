@@ -77,6 +77,23 @@
         font-size: 25px;
         text-align: center;
     }
+    .funny-card-container{
+        flex-direction: column;
+
+    }
+    .funny-title{
+        font-size: 25px;
+    }
+    .cards-description{
+        font-size: 10px;
+    }
+    .funny-cards{
+        margin: 0 auto;
+    }
+    .card-img{
+        width: 400px;
+    }
+
 
 
 
