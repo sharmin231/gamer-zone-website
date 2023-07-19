@@ -85,13 +85,36 @@
         font-size: 25px;
     }
     .cards-description{
-        font-size: 10px;
+        font-size: 15px;
     }
     .funny-cards{
         margin: 0 auto;
     }
     .card-img{
-        width: 400px;
+        width: 100%;
+    }
+    .download-container{
+        flex-direction: column-reverse;
+        
+    }
+    .download-img{
+        width: 100%;
+    }
+    .pic-1{
+        width: 100%;
+        padding-left: 40px; 
+
+    
+    }
+    .pic-2{
+        width: 180px;
+        height: 180px;
+        top: 260px;
+        left: 0%;
+
+    }
+    .download-description{
+        font-size: 18px;
     }
 
 
@@ -221,7 +244,7 @@
         font-size: 25px;
     }
     .cards-description{
-        font-size: 18px;
+        font-size: 15px;
     }
     .funny-cards{
         margin: 0 auto;
