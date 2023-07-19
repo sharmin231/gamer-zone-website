@@ -251,8 +251,12 @@
     }
     .download-container{
         flex-direction: column-reverse;
-        
     }
+    .download-description{
+        font-size: 14px;
+        }
+        
+
     .download-img{
         width: 100%;
     }
