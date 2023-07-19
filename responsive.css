@@ -25,7 +25,47 @@
         font-size: 14px;
         text-align: center;
     }
+    .play-container{
+        flex-direction: column-reverse;
+        padding: 20px;
+    
+
+    }
+    .play-content{
+        width: 100%;
+        text-align: center;
+
+    }
+    .play-title{
+        font-size: 25px;
+    }
+    .play-description{
+        font-size: 12px;
+    }
+    .play-name
+    {
+        font-size: 30px;
+    }
+    .click-icon{
+        padding-left: 100px;
+    }
+    .download-icon{
+        padding-left: 100px;
+    }
+    .support-icon{
+        padding-left: 100px;
+    }
+    .signin-btn{
+        padding: 12px 15px;
+    }
+    .go-btn{
+        padding: 12px 15px;
+    }
 }
+
+
+
+
 @media screen and (max-width: 768px){
     .nav-container{
         flex-direction: column;
@@ -35,10 +75,8 @@
         justify-content: center;
 }
 .nav-bar-container{
-
     width: 100%;
     margin-top: 20px;
     justify-content: space-around;
-
-
+}
 }
