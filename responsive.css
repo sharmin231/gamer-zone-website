@@ -1,119 +1,172 @@
-@media screen and (max-width: 425px){
-    .nav-container{
+@media screen and (max-width: 768px) {
+    .nav-container {
         flex-direction: column;
     }
-    .nav-logo-container{
+
+    .nav-logo-container {
         width: 100%;
         justify-content: center;
     }
-    .logo-title{
+
+    .nav-bar-container {
+        width: 100%;
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+
+    .play-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .play-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-img {
+        width: 100%;
+    }
+
+    .click-icon {
+        padding-left: 240px;
+    }
+
+    .download-icon {
+        padding-left: 240px;
+    }
+
+    .support-icon {
+        padding-left: 240px;
+    }
+
+    .signin-btn {
+        padding: 12px 15px;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+
+    .go-btn {
+        padding: 12px 15px;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-logo-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-title {
         font-size: 25px;
     }
-    .nav-bar-container{
+
+    .nav-bar-container {
         flex-direction: column;
         width: 100%;
         margin-top: 20px;
         justify-content: center;
     }
-    .nav-bar-container a{
+
+    .nav-bar-container a {
         margin-top: 20px;
         font-size: 14px;
     }
-    .btn-primary{
+
+    .btn-primary {
         width: 100%;
         color: #3C354F;
         font-size: 14px;
         text-align: center;
     }
-    .play-container{
+
+    .play-container {
         flex-direction: column-reverse;
         padding: 20px;
-    
+    }
 
-    }
-    .play-content{
-        width: 100%;
-        text-align: center;
-    }
-    .play-img{
+    .play-content {
         width: 100%;
     }
-    .play-title{
+
+    .play-img {
+        width: 100%;
+    }
+
+    .play-title {
         font-size: 25px;
     }
-    .play-description{
+
+    .play-description {
         font-size: 12px;
     }
-    .play-name
-    {
+
+    .play-name {
         font-size: 30px;
+        ;
+
     }
-    .click-icon{
-        padding-left: 100px;
+
+    .click-icon {
+        padding-left: 100px
     }
-    .download-icon{
-        padding-left: 100px;
+
+    .download-icon {
+        padding-left: 100px
     }
-    .support-icon{
-        padding-left: 100px;
+
+    .support-icon {
+        padding-left: 100px
     }
-    .signin-btn{
+
+    .signin-btn {
         padding: 12px 15px;
         margin-top: 20px;
         padding-left: 10px;
     }
-    .go-btn{
+
+    .go-btn {
         padding: 12px 15px;
     }
-}
 
-
-
-
-@media screen and (max-width: 768px){
-    .nav-container{
+    .gamer-container {
         flex-direction: column;
     }
-    .nav-logo-container{
+
+    .gamer-image-container {
         width: 100%;
-        justify-content: center;
-}
-.nav-bar-container{
-    width: 100%;
-    margin-top: 20px;
-    justify-content: space-around;
-}
-.play-container{
-    flex-direction: column-reverse;
-    padding: 20px;
-}
-.play-content{
-    width: 100%;
-    text-align: center;
-}
-.play-img{
-    width: 100%;
-}
-.click-icon{
-padding-left: 240px;}
-.download-icon{
-    padding-left: 240px;
-}
-.support-icon{
-    padding-left: 240px;
-}
-.signin-btn{
-    padding: 12px 15px;
-    margin-top: 20px;
-    padding-left: 10px;
-}
-.go-btn{
-    padding: 12px 15px;
-}
-
-
-
-
+    }
+    .gamer-content-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .gamer-title{
+        font-size: 25px;
+        text-align: center;
+    }
+    .gamer-description{
+        font-size: 13px;
+        text-align: center;
+    }
+    .purpose{
+        text-align: center;
+    }
+    .bottom-p-2{
+        font-size: 20px;
+        text-align: center;
+    }
 
 
 }

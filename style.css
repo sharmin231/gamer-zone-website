@@ -265,3 +265,9 @@ span {
     font-weight: 700;
     margin-bottom: 4px;
 }
+/*funny card start here*/
+.funny-card-container{
+    max-width: 1140px;
+    border: 2px solid green;
+    min-height: 200px;
+}
