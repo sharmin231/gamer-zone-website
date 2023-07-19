@@ -396,8 +396,12 @@ span {
 footer {
     background-color: #0B0223;
     margin-top: 50px;
-    height: 100vh;
-
+}
+.all-footer{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
 }
 
 .footer-logo-div,
