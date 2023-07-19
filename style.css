@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 /*nav style start here*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&family=Work+Sans:wght@400;500;700;800&display=swap');
 
@@ -52,7 +53,7 @@ span {
     align-items: center;
 }
 
-.nav-bar-container a{
+.nav-bar-container a {
     text-decoration: none;
     color: #3C354F;
     text-align: center;
@@ -60,7 +61,7 @@ span {
     font-weight: 500;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 20px 25px;
@@ -69,15 +70,121 @@ span {
     font-size: 18px;
     color: #3C354F;
 }
-.youtube{
+
+.youtube {
     width: 50px;
     height: 40px;
     margin-left: 10px;
     color: red;
 }
-.tiktok{
+
+.tiktok {
     width: 34px;
     height: 24px;
     margin-left: 10px;
     color: #000000;
+}
+
+/*nav section end here/*
+/*play section start here*/
+.play-container {
+    max-width: 1140px;
+    background-color: #FFF;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 40px;
+}
+.play-content {
+    width: 50%;
+}
+
+.play-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.play-title {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.play-name {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.click-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.download-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.support-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.player {
+    color: #FF42A5;
+
+}
+
+.download {
+    color: #FF42A;
+}
+
+.support {
+    color: black;
+}
+
+.signin-btn {
+    border-radius: 22px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 16px 21px;
+    border: none;
+}
+
+.go-btn {
+    padding: 16px 21px;
+    gap: 10px;
+    border-radius: 22px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFf;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.play-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
 }
