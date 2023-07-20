@@ -275,9 +275,7 @@
     }
     .button-container{
         flex-wrap: wrap;
-    }
-    button{
-        width: 130px;
+        gap: 5px;
     }
     .text{
         font-size: 10px;
@@ -285,6 +283,18 @@
     .button-pic{
         width: 40px;
         height: 40px;
+    }
+    .hover-btn{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border: 2px transparent;
+        border-radius: 50px;
+        background: #FFF;
+    }
+    .hover-btn:hover{
+        border: 2px solid #FF42A5;
+        color: #FF42A5;
     }
     .story-box{
         flex-wrap: wrap;

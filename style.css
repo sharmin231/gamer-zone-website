@@ -381,7 +381,7 @@ span {
 
 }
 
-button {
+.hover-btn{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -396,7 +396,7 @@ button {
     font-weight: 600;
 }
 
-button:hover {
+.hover-btn:hover {
     border: 2px solid #FF42A5;
     color: #FF42A5;
 }
