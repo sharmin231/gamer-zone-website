@@ -273,16 +273,16 @@
         left: 0%;
 
     }
-    .wrap-container{
+    .button-container{
         flex-wrap: wrap;
     }
-    .column{
+    button{
         width: 130px;
     }
-    .title{
+    .text{
         font-size: 10px;
     }
-    .new{
+    .button-pic{
         width: 40px;
         height: 40px;
     }
